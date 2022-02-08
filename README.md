@@ -33,11 +33,15 @@
  This implementation is made using two std::vectors, where the first one is element slots
  and the second is the stack of references to the slots of removed elements. It is simple, 
  reliable, efficient and has intuitively predictable behavior.
+ 
+### Building
+Building is not required for using, just put the file slab.h into your project.
+To run tests or examples you can buld them with CMake or simply compile, for example: g++ -std=c++17 tests.cpp.
 
 ### Usage
 ```c++
 #include <iostream>
-#include "../slab.h"
+#include "slab.h"
 
 using namespace std;
 
