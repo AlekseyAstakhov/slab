@@ -1,4 +1,4 @@
-# slab
+# Slab
 
  Container with slab allocator logic.
  Allows fast insert, look-up and remove elements.
